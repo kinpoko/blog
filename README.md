@@ -2,9 +2,7 @@
 
 ## Description
 This is a CMS(Contents Management System）with simple features.
-
-## Usage
-You can create, delete, and modify posts from the blog's admin panel.
+You can create, delete, and correct posts from the blog's manegement page.
 ```
 postlist.php
 ```
@@ -16,5 +14,7 @@ postlist.php
 
 ## Install
 ```
-
+git clone https://github.com/kinpoko/blog.git
 ```
+
+##
