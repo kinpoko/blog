@@ -1,0 +1,221 @@
+html,body{margin:0;padding:0;}
+
+body {
+    background-color:#f6efdb;
+    color: black;
+    font-size: 14px;
+    font-family: sans-serif;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  p {
+    margin: 0;
+    padding: 0;
+  }
+  h1 {
+    margin: 10px 0;
+    padding: 0;
+    color:black;
+    font-size: 32px;
+    text-align: center;
+    font-family:  serif;
+  }
+
+  h2 {
+    
+    color: black;
+    font-size: 18px;
+    text-align: center;
+  }
+  h3 {
+    margin: 0 -15px 10px -15px;
+    padding: 5px 10px;
+    
+    color: white;
+    font-size: 14px;
+  }
+  .mg-20{
+    margin : 20px;
+}
+
+  .main{
+    min-height: 100vh; 
+    position: relative;
+    padding-bottom: 60px; 
+   }
+
+  .wrapper{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 4%;
+
+  }
+  /*header*/
+  .page-header{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    font-family:  serif;
+
+  }
+  .main-nav{
+    display: flex;
+    font-size: 1.25rem;
+    list-style: none;
+    margin-top: 34px;
+    text-transform: uppercase;
+  }
+
+  .main-nav li{
+    margin-left: 36px;
+  }
+
+  .main-nav a{
+    color: black;
+  }
+
+  .main-nav a:hover{
+    color:white;
+  }
+  
+  /*footer*/
+
+  footer{
+    width: 100%;
+    position: absolute;/* ←絶対位置 */
+    bottom: 0;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 15px 0;
+    
+  }
+
+  /*main-contents*/
+  .main-contents{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+  /*side*/
+  .side{
+    width: 22%;
+    margin-right: auto;
+    
+  }
+
+  .sub-title{
+    
+    font-size: 1.2rem;
+    padding: 0 8px 8px;
+    border-bottom: 2px #47763c solid;
+    color: black;
+    
+
+  }
+  .sub-contents{
+    font-size: 1.2rem;
+    margin-bottom: 60px;
+    list-style: none;
+    text-align: left;
+    padding-inline-start: 0;
+  }
+  
+  
+  
+  .sub-contents a{
+    color: black;
+    padding: 10px;
+    
+  }
+
+  .sub-contents a:hover{
+    color: white;
+  }
+
+  /*post-list*/
+
+  .post-list {
+    width: 40%; 
+    margin: 0 auto 15px auto;
+    padding: 0 20px 20px 20px; 
+    background-color:#f6efdb;
+  }
+
+  .post-title {
+    background-color:#47763c;
+    color: white;
+    margin: 15px auto 0px auto;
+    padding: 10px;
+    text-align: left;
+    border-radius: 20px;
+    position:relative;
+    height: 30px;
+
+  }
+  .post-title a{
+    margin: 10px ;
+    color:white;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70%;
+  }
+
+  .post-title a:hover{
+    color:white;
+  }
+  
+  
+  .post-date {
+    text-align: right;
+  }
+
+  /*post contents*/
+  .post-contents{
+    width: 40%; 
+    margin: 0 auto 15px auto;
+    padding: 0 20px 20px 20px; 
+  }
+  .contents{
+    padding: 20px 20px 20px 20px; 
+    margin: 0 auto 60px auto;
+  }
+  .transition{
+    text-align: center;
+
+  }
+
+  /*postform*/
+  .post-form{
+    text-align: center;
+  }
+
+  /*profile*/
+  .profile-image{
+    background-image: url("image/profile.JPG");
+    margin-left: 40px;
+    width:  250px;
+    height: 250px;
+    border-radius: 50%;
+    background-position: 45% 49%;
+    
+    
+
+  }
+
+  .profile-name{
+    color:black;
+    text-align: center;
+    margin-right: 90px;
+    font-size: 1.75rem;
+  }
+
+  .profile-account{
+    color: blue;
+    text-decoration: underline;
+  }
