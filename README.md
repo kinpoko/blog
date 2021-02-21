@@ -1,8 +1,20 @@
 # blog
 
 ## Description
-簡単な機能をもつ CMS(Contents Management System）
+This is a CMS(Contents Management System）with simple features.
 
 ## Usage
-ブログの管理画面から記事の作成、削除、修正ができる。
-[管理画面](readme1.jpg)
+You can create, delete, and modify posts from the blog's admin panel.
+```
+postlist.php
+```
+## Requirements
+- PHP　7.4
+- MySQL 5.6
+- HTML
+- CSS
+
+## Install
+```
+
+```
