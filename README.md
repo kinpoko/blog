@@ -7,8 +7,7 @@ You can create, delete, and correct posts from the blog's manegement page:`postl
 ## Requirements
 - PHP 7.4
 - MySQL 5.6
-- HTML
-- CSS
+
 
 ## Install
 ```
